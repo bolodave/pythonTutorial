@@ -10,6 +10,8 @@ print(a)
 b = "hello"
 print(b)
 
+c = "Hello from Repl"
+print(c)
 #Square
 # -Initialization of turtlebot and create a square using an algorithm
 qazi_turtle = turtle.Turtle()
