@@ -1,7 +1,10 @@
 import calendar
+import datetime
+import time
 
 """
-
+Topic: calendar
+-Writing some code using the calendar 
 """
 print()
 print()
@@ -24,6 +27,10 @@ print()
 
 day_of_the_week = calendar.weekday(2020, 5, 26)
 print(day_of_the_week)
-"""
+
 is_leap = calendar.isleap(2019)
 print(is_leap)
+print()
+"""
+how_many_leap_days = calendar.leapdays(2000, 2020)
+print(how_many_leap_days)
